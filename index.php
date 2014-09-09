@@ -114,5 +114,42 @@
 	 
 	 <br>
 	 <?php echo "Rain" . trim(" bow"); ?> 
+	 
+	 <h2>Täisrvud</h2>
+	 
+	  <?php
+      $int1 = 20;
+	  $int2 = 4;
+	  echo $int1 * $int2;
+      ?>
+	  
+	  <br>
+	  
+	  <?php 
+	  // absoluutväärtus
+	  echo abs(-14) ?>
+	  
+	  	<br>
+		
+	<?php //astendamine
+	
+	echo pow(5,2) ?>
+	
+	<br>
+	
+	  <?php 
+	  
+	  // ruutjuur
+	  echo sqrt(16) ?>
+	
+	<br>
+	
+	 <?php 
+	 
+	// suvaline nr (vahemik)
+	
+	echo rand(0,10) ?>
+	<br>
+	
 </body>
 </html>
