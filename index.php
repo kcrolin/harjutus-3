@@ -63,5 +63,56 @@
 	  $test = "it";
 	  echo "But does $test blend?";
 	  ?> 
+	 <h2>Stringi funktsioonid</h2> 
+	 
+	
+	 <?php
+	 // echo väljastab väärtus stringina
+	  echo "string";
+	  ?> 
+	
+	<br>
+	
+	  <?php
+	 // concatenate ühendab
+	 $a = "ka";
+	 $b = "ss";
+	 echo $a . $b;
+	  ?> 
+	  
+	  <?php
+      $source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+      $lower = strtolower($source);
+      echo "<p>{$lower}</p>";
+      ?>
+	  
+	  <?php
+      $source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+      $upper = strtoupper($source);
+      echo "<p>{$upper}</p>";
+      ?>
+	  
+	  <?php
+      $source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+      $sentence_start = ucfirst($source);
+      echo "<p>{$sentence_start}</p>";
+      ?>
+	  
+	  <?php
+      $source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+      $capital_letter = ucwords($source);
+      echo "<p>{$capital_letter}</p>";
+      ?>
+	  
+	  <?php
+      $source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+      $length = strlen($source);
+      echo "<p>{$length}</p>";
+      ?>
+	  
+	 <?php echo "A" . trim(" B C D E") . "F"; ?> 
+	 
+	 <br>
+	 <?php echo "Rain" . trim(" bow"); ?> 
 </body>
 </html>
