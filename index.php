@@ -151,5 +151,52 @@
 	echo rand(0,10) ?>
 	<br>
 	
+	<?php 
+	  
+	$start = 2;
+    $start = $start + 8;
+echo $start;	?>
+
+<br>
+<?php 
+	$start = 2;
+    $start =-8;
+echo $start;	?>
+
+<br>
+<?php 
+	$start = 2;
+    $start *= 2;
+echo $start;	?>
+	
+	<br>
+<?php 
+	$start = 6;
+    $start /= 3;
+echo $start;	?>
+	
+		<br>
+<?php
+    echo 3 . "  kutsikat";
+?>
+
+
+	<br>	
+<?php
+    echo 3 * "  kutsikat";
+?>
+
+<br>
+
+<?php
+// tõlgitakse nr-iks
+    echo 3 + "3";
+?>
+
+<br>	
+<?php
+// !!! pole hea tava
+    echo 3 * " 4 jalgset kutsikat";
+?>
 </body>
 </html>
