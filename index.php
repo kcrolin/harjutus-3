@@ -57,5 +57,11 @@
 	  echo $fullName;
 	  ?>  
 	  
+	  <br>
+	  
+	  <?php 
+	  $test = "it";
+	  echo "But does $test blend?";
+	  ?> 
 </body>
 </html>
