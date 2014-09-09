@@ -50,7 +50,12 @@
 		<li> <?php echo $student5; ?> </li>
 	  </ul>
 	  
-	  
+	 <?php 
+	  $firstName = "Cärolin";
+	  $lastName = "Karing";
+	  $fullName = $firstName . " " . $lastName;
+	  echo $fullName;
+	  ?>  
 	  
 </body>
 </html>
